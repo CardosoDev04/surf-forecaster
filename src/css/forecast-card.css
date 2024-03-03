@@ -1,0 +1,50 @@
+.card {
+    height: 150px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.quality-bar {
+    border-radius: 20px;
+    background: green;
+    height: 100px;
+    width: 15px;
+    position: absolute;
+    top: 25px;
+    left: 10px;
+}
+
+.relative-height{
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    @apply text-gray-600 font-bold opacity-75
+}
+
+.wave-height {
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    @apply font-bold text-4xl
+}
+
+.condition {
+    position: absolute;
+    top: 90px;
+    left: 40px;
+    @apply font-bold text-xl text-green-600
+}
+
+.cardinal-direction {
+    position: absolute;
+    top: 40px;
+    left: 300px;
+    @apply text-4xl font-bold
+}
+.degrees{
+    position: absolute;
+    top: 85px;
+    left: 300px;
+    @apply text-lg font-semibold opacity-50
+}
